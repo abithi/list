@@ -1,0 +1,59 @@
+#list is collection of data[]
+#odered
+#allows dulicate values
+#changeable
+print("==append==") #last la list la add agum
+a=[1,2,3,5,6,6]
+print(a[-1])
+print(type(a))
+a.append(True)
+a.append(10)
+print(a)
+print("insert")#position,value(2 aruguments need)
+a=[1,2,3,4,5,6,8]
+a.insert(0,7)
+print(a)
+print("==pop==")#index value position #empty pop is given then last element will be  remove
+a=[1,2,3,4,5,6,7]
+a.pop(1)
+print(a)
+print("===del==")#del keywords removes the specified index
+a=[1,2,3,4,5,6,7]
+del a[1]
+print(a)
+b=[1,2,3,4]
+del b[::2]
+print(b)
+c=list(range(20))
+del c[::2]
+print(c)
+print("==clear==")#clear the whole list give empty list
+a=list(range(10))
+a.clear()
+print(a)
+print("===reverse==")#reverse the list
+a=list(range(10))
+a.reverse()
+print(a)
+print(id(a))
+print(type(a))
+print("===count==")
+a=[1,2,3,4,5,5,5,6,90,90]
+print(a.count(5))
+print("===sort==")
+a=[10,20,40,50,80,2,3,4,5,90]
+a.sort()
+print(a)
+print("==sort and reverse")
+a=[1,2,60,80,57,34,56,2,3,4,5]
+a.sort()
+print(a)
+a.reverse()
+print(a)
+print("==lexicographical===")
+list=['a','b','z','d','g']
+list.sort()
+print(list)
+
+
+
