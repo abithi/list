@@ -1,0 +1,20 @@
+#{}set do not allows duplicate values
+#any type of values can be stored
+#we cannot modify the item.but wre can add and removex
+
+print("==set===")
+a={1,2,3,4,1,2,3}
+print(a)
+print("==add==")
+a={1,2,3,4,5,6}
+a.add(109)
+print(a)
+print("==remove==")
+a={1,2,3,4,5,6,7,8}
+a.remove(4)
+print(a)
+print("==pop==")
+a={1,2,3,4,5,6,7}
+a.pop()
+print(a)
+
