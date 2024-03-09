@@ -1,0 +1,11 @@
+#()tuple allows dulicate,allows any type of data can be stored
+#CANNOT modify tuple items.we cannot and or rmove
+print("===tuple===")
+a=(1,2,3,4,5,6,6,6,6,7)
+b=list(a)
+b.pop()
+print(a)
+print(b)
+
+
+
