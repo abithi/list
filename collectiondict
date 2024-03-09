@@ -1,0 +1,37 @@
+#dont allows dulicate\
+#dict stored as keys and pair values
+print("==dict==")
+a={
+"name":"hanyeaa",
+"age":"1",
+"location":"tiruppur"
+}
+a["age"]=2
+a["colour"]="blue"
+print(a)
+print("==update==")
+a={
+"name":"hanyeaa",
+"age":"1",
+"location":"tiruppur"
+}
+a.update({"age":2})
+print(a)
+print("==pop==")
+a=={
+"name":"hanyeaa",
+"age":"1",
+"location":"tiruppur"
+}
+a.pop("age")
+print(a)
+print("==clear==")
+a={
+"name":"hanyeaa",
+"age":"1",
+"location":"tiruppur"
+}
+a.clear()
+print(a)
+
+
